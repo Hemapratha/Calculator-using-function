@@ -10,7 +10,6 @@ def mul(a,b):
 def divi(a,b):
     return a/b
 
-
 def operation(choice,a,b):
     while choice >= 0:
         if choice == 1:
@@ -26,7 +25,6 @@ def operation(choice,a,b):
             inputfun()
         else:
             break
-
 
 def inputfunction():
     a = int(input("Enter the 1st numbers"))
