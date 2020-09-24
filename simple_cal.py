@@ -36,7 +36,7 @@ def inputfunction():
     print("2 -- Sub operation")
     print("3 -- Mul operation")
     print("4 -- Division operation")
-    choice = int(input("Enter the choice : "))
+    choice = int(input("Enter the choice: "))
     operation(choice,a,b)
 
 inputfunction()
